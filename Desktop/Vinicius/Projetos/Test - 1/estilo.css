@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: hsl(180, 1%, 14%);
+}
+
+header img {
+    width: 13%;
+}
+
+.box {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 67px;
+    right: 40px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 40px 40px;
+}
+
+nav a {
+    color: #ffffff;
+    padding: 2px 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+nav a:hover {
+    color: #f81313;
+    background: #ffffff;
+    border-radius: 0 15px 0 15px;
+}
+
+
+nav a:active {
+    color: #1ff813;
+}
+
+.servicos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.servicos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border: 5px solid #161616;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.servicos li:hover {
+    border-color: #f81313;
+}
+
+.servicos li:active {
+    border-color: #1ff813;
+}
+
+.servicos li:hover h2 {
+    color: #f81313;
+    font-size: 30px;
+}
+
+.servicos li:hover p {
+    color: #f81313;
+}
+
+.servicos img {
+    width: 50%;
+    padding: 15px 0;
+}
+
+.banner {
+    width: 100%;
+}
+
+.Titulos {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    color: rgb(233, 7, 7);
+}
+
+.Sobre p {
+    margin: 0 0 1em;
+    
+}
+
+.Sobre {
+    padding: 3em;
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lista-benficios {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    font-size: 20px;
+    font-weight: bold;
+    color: blanchedalmond;
+}
+
+.conteudos-beneficios {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.banner2 {
+    width: 20%;
+}
+
+.Beneficios {
+    padding: 3em;
+    background: #161616 ;
+}
+
+.missao {
+    font-size: 22px;
+}
+
+footer img {
+    width: 5%;
+    padding-top: 20px
+}
+
+form {
+    width: 350px;
+    margin: 30px 38%;
+}
+
+form h2 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #f5054d;
+    font-family: sans-serif;
+}
+
+form label, form legend {
+    display: block;
+    margin: 0 0 10px;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+fieldset {
+    border: none;
+}
+
+table {
+    width: 350px;
+    margin: 30px 38%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #f5054d;
+    color: #ffffff;
+    font-family: monospace;
+}
+
+td, th {
+    border: 1px solid #720224;
+    padding: 5px 10px;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+td {
+    font-size: 15px;
+    text-align: center;
+}
+
+.s {
+    text-align: start;
+    font-weight: bolder;
+    color: #ffffff;
+    background: #ce3965;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 100%;
+    border-style: solid;
+    border-color: #f5054d;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.botao {
+    background: #f5054d;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 76%;
+    box-shadow: 0.2em 0.2em 0.0em #720224;
+    transition: 0.2s;
+}
+
+.botao:hover {
+    background: #c5053f;
+}
+.botao:active {
+    box-shadow: 0.0em 0.0em 0.0em #000000b1
+}
+
+footer {
+    text-align: center;
+    background-image: url("imagens/Roda.jpg");
+    background-size: 170px;
+}
+
+footer p {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    padding-bottom: 20px;
+}

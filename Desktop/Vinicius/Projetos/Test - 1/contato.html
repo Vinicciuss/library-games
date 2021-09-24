@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato - Salão</title>
+        <link rel = "stylesheet" type = "text/css" href = "estilo.css">
+    </head>
+    
+    <body>
+        <header>
+            <div class = "box">
+                <h1><img src = "Logo.png" alt = "Logo do Salão."></h1>
+                <nav>
+                    <ul>
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "serviços.html">Serviços</a></li>
+                        <li><a href = "contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <h2>Contato</h2>
+                <label for = "nome">Nome:</label>
+                <input type = "text" name = "nome" id = "nome" class = "input-padrao" required placeholder = "Seu nome">
+               
+                <label for = "email">E-mail:</label>
+                <input type = "email" name = "email" id = "email" class = "input-padrao" required placeholder = "seunome@gmail.com"> 
+                
+                <label for = "telefone">Telefone:</label>
+                <input type ="text" name = "telefone" id = "telefone" class = "input-padrao" required placeholder = "(XX) XXXXX-XXXX">
+               
+                <label for = "mensagem">Mensagem:</label>
+                <textarea name = "" id = "mensagem" cols = "40" rows = "10"  class = "input-padrao" required></textarea>
+                
+                <fieldset>
+                    <legend>Como você prefere o nosso contato?</legend> 
+                    <label for = "radio-telefone">
+                        <input type = "radio" name = "contato" id = "radio-telefone" value = "telefone" checked>
+                        Telefone.
+                    </label>
+                    
+                    <label for = "radio-email">
+                        <input type = "radio" name = "contato" id = "radio-email" value = "email">
+                        E-mail.
+                    </label>
+
+                    <label for = "radio-whatsapp">
+                        <input type = "radio" name = "contato" id = "radio-whatsapp" value = "whatsapp">
+                        Whatsapp.
+                    </label>
+                </fieldset>
+
+                <label for = "">
+                    <input type = "checkbox" name = "checkbox" id = "checkbox" checked>
+                    Gostaria de receber nossas novidades e promoções por e-mail?
+                </label>
+
+                <label for = "horario">Qual horário você prefere se atendido?</label>
+                <select name = "horario" id = "horario" class = "input-padrao">
+                    <option value = "manha">Manhã</option>
+                    <option value = "tarde">Tarde</option>
+                    <option value = "noite">Noite</option>
+                </select>
+
+                <input type ="submit" name = "enviar" value = "Enviar" class = "botao"> 
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horários</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class = "s">Segunda-feira</td>
+                        <td>08h - 17h</td>
+                    </tr>
+                    <tr>
+                        <td class = "s">Terça-feira</td>
+                        <td>08h - 17h</td>
+                    </tr>
+                    <tr>
+                        <td class = "s">Quarta-feira</td>
+                        <td>08h - 17h</td>
+                    </tr>
+                    <tr>
+                        <td class = "s">Quinta-feira</td>
+                        <td>08h - 17h</td>
+                    </tr>
+                    <tr>
+                        <td class = "s">Sexta-feira</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td class = "s">Sábado</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <img src = "Logo.png" alt = "Logo do Salão.">
+            <p>Copyright Salão - 2021</p>
+        </footer>
+    </body>
+</html>
